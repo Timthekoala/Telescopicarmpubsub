@@ -1,6 +1,6 @@
 # Telescopicarmpubsub
 
-source foxy
+source foxy/
 source workspace
 
 cd /<workspace>/

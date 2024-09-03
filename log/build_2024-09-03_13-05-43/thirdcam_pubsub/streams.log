@@ -1,0 +1,41 @@
+[0.845s] Invoking command in '/home/timothy/thirdcam/src/thirdcam_pubsub': PYTHONPATH=/home/timothy/thirdcam/build/thirdcam_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timothy/thirdcam/install/thirdcam_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/thirdcam_pubsub build --build-base /home/timothy/thirdcam/build/thirdcam_pubsub/build install --record /home/timothy/thirdcam/build/thirdcam_pubsub/install.log --install-scripts $base/lib/thirdcam_pubsub --single-version-externally-managed install_data
+[1.097s] running egg_info
+[1.098s] creating ../../build/thirdcam_pubsub/thirdcam_pubsub.egg-info
+[1.098s] writing ../../build/thirdcam_pubsub/thirdcam_pubsub.egg-info/PKG-INFO
+[1.098s] writing dependency_links to ../../build/thirdcam_pubsub/thirdcam_pubsub.egg-info/dependency_links.txt
+[1.098s] writing entry points to ../../build/thirdcam_pubsub/thirdcam_pubsub.egg-info/entry_points.txt
+[1.098s] writing requirements to ../../build/thirdcam_pubsub/thirdcam_pubsub.egg-info/requires.txt
+[1.099s] writing top-level names to ../../build/thirdcam_pubsub/thirdcam_pubsub.egg-info/top_level.txt
+[1.107s] writing manifest file '../../build/thirdcam_pubsub/thirdcam_pubsub.egg-info/SOURCES.txt'
+[1.146s] reading manifest file '../../build/thirdcam_pubsub/thirdcam_pubsub.egg-info/SOURCES.txt'
+[1.147s] writing manifest file '../../build/thirdcam_pubsub/thirdcam_pubsub.egg-info/SOURCES.txt'
+[1.147s] running build
+[1.147s] running build_py
+[1.148s] creating /home/timothy/thirdcam/build/thirdcam_pubsub/build
+[1.148s] creating /home/timothy/thirdcam/build/thirdcam_pubsub/build/lib
+[1.148s] creating /home/timothy/thirdcam/build/thirdcam_pubsub/build/lib/thirdcam_pubsub
+[1.148s] copying thirdcam_pubsub/thirdcampub.py -> /home/timothy/thirdcam/build/thirdcam_pubsub/build/lib/thirdcam_pubsub
+[1.148s] copying thirdcam_pubsub/__init__.py -> /home/timothy/thirdcam/build/thirdcam_pubsub/build/lib/thirdcam_pubsub
+[1.148s] copying thirdcam_pubsub/thirdcamsub.py -> /home/timothy/thirdcam/build/thirdcam_pubsub/build/lib/thirdcam_pubsub
+[1.148s] running install
+[1.149s] running install_lib
+[1.150s] creating /home/timothy/thirdcam/install/thirdcam_pubsub/lib/python3.8/site-packages/thirdcam_pubsub
+[1.150s] copying /home/timothy/thirdcam/build/thirdcam_pubsub/build/lib/thirdcam_pubsub/thirdcampub.py -> /home/timothy/thirdcam/install/thirdcam_pubsub/lib/python3.8/site-packages/thirdcam_pubsub
+[1.150s] copying /home/timothy/thirdcam/build/thirdcam_pubsub/build/lib/thirdcam_pubsub/__init__.py -> /home/timothy/thirdcam/install/thirdcam_pubsub/lib/python3.8/site-packages/thirdcam_pubsub
+[1.150s] copying /home/timothy/thirdcam/build/thirdcam_pubsub/build/lib/thirdcam_pubsub/thirdcamsub.py -> /home/timothy/thirdcam/install/thirdcam_pubsub/lib/python3.8/site-packages/thirdcam_pubsub
+[1.150s] byte-compiling /home/timothy/thirdcam/install/thirdcam_pubsub/lib/python3.8/site-packages/thirdcam_pubsub/thirdcampub.py to thirdcampub.cpython-38.pyc
+[1.152s] byte-compiling /home/timothy/thirdcam/install/thirdcam_pubsub/lib/python3.8/site-packages/thirdcam_pubsub/__init__.py to __init__.cpython-38.pyc
+[1.152s] byte-compiling /home/timothy/thirdcam/install/thirdcam_pubsub/lib/python3.8/site-packages/thirdcam_pubsub/thirdcamsub.py to thirdcamsub.cpython-38.pyc
+[1.152s] running install_data
+[1.152s] creating /home/timothy/thirdcam/install/thirdcam_pubsub/share/ament_index
+[1.152s] creating /home/timothy/thirdcam/install/thirdcam_pubsub/share/ament_index/resource_index
+[1.152s] creating /home/timothy/thirdcam/install/thirdcam_pubsub/share/ament_index/resource_index/packages
+[1.153s] copying resource/thirdcam_pubsub -> /home/timothy/thirdcam/install/thirdcam_pubsub/share/ament_index/resource_index/packages
+[1.153s] copying package.xml -> /home/timothy/thirdcam/install/thirdcam_pubsub/share/thirdcam_pubsub
+[1.153s] running install_egg_info
+[1.155s] Copying ../../build/thirdcam_pubsub/thirdcam_pubsub.egg-info to /home/timothy/thirdcam/install/thirdcam_pubsub/lib/python3.8/site-packages/thirdcam_pubsub-0.0.0-py3.8.egg-info
+[1.156s] running install_scripts
+[1.171s] Installing my_publisher script to /home/timothy/thirdcam/install/thirdcam_pubsub/lib/thirdcam_pubsub
+[1.171s] Installing my_subscriber script to /home/timothy/thirdcam/install/thirdcam_pubsub/lib/thirdcam_pubsub
+[1.172s] writing list of installed files to '/home/timothy/thirdcam/build/thirdcam_pubsub/install.log'
+[1.192s] Invoked command in '/home/timothy/thirdcam/src/thirdcam_pubsub' returned '0': PYTHONPATH=/home/timothy/thirdcam/build/thirdcam_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timothy/thirdcam/install/thirdcam_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/thirdcam_pubsub build --build-base /home/timothy/thirdcam/build/thirdcam_pubsub/build install --record /home/timothy/thirdcam/build/thirdcam_pubsub/install.log --install-scripts $base/lib/thirdcam_pubsub --single-version-externally-managed install_data

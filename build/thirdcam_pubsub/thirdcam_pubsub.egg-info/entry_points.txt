@@ -1,0 +1,4 @@
+[console_scripts]
+my_publisher = thirdcam_pubsub.thirdcampub:main
+my_subscriber = thirdcam_pubsub.thirdcamsub:main
+

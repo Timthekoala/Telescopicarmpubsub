@@ -13,5 +13,6 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 thirdcam_pubsub/__init__.py
+thirdcam_pubsub/com controller ros.py
 thirdcam_pubsub/thirdcampub.py
 thirdcam_pubsub/thirdcamsub.py

@@ -9,7 +9,7 @@ from std_msgs.msg import String
 arduino_ports = [
     p.device
     for p in serial.tools.list_ports.comports()
-    if 'Arduino' in p.description  # may need tweaking to match new arduinos
+    if 'Serial' in p.description
 ]
 if not arduino_ports:
     raise IOError("No Arduino found")
@@ -18,6 +18,7 @@ if len(arduino_ports) > 1:
 
 baud_rate=9600
 ser = serial.Serial(arduino_ports[0], baud_rate, timeout=1)
+print (arduino_ports[0])
 
 time.sleep(2)
 
